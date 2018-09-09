@@ -1,0 +1,30 @@
+/*
+* @Author: yongze-chen
+* @Date:   2018-06-19 14:26:00
+* @Last Modified by:   liyue2018
+* @Last Modified time: 2018-09-09 17:26:46
+*/
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+ li {
+    list-style: none;
+ }
+
+ .img {
+    width: 200px;
+    height: 200px;
+    background: url('../images/1.jpg');
+    background-size: cover;
+ }
+
+ .list {
+    li {
+        background: red;
+        font-size: large;
+    }
+ }

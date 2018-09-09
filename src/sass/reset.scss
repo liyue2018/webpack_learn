@@ -1,0 +1,79 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html, header, nav, footer, form, div, p, ul, li, dl, dt, dd, ol, a, input,button, span, img, h1,h2,h3,h4,h5,h6,i, em {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2e2e2e;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%; 
+}
+
+li {
+    list-style-type: none;
+}
+
+input, button, textarea {
+    border: none;
+    outline: none!important;
+    &:focus {
+        outline: none!important;
+    }
+}
+
+img {
+    border: none;
+    
+    // 去基线
+    display: block;
+    vertical-align: top;
+}
+
+img[src=""] {
+    opacity: 0;
+}
+a {
+    color: #343434;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        outline: none!important;
+    }
+}
+a:focus {
+    outline: none;
+}
+
+
+i, em {
+    font-style: normal;
+}
+
+
+

@@ -1,0 +1,66 @@
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #d6d6d6;
+    font-size: small;
+    font-weight: bold;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #d6d6d6;
+    font-size: small;
+    font-weight: bold;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #d6d6d6;
+    font-size: small;
+    font-weight: bold;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #d6d6d6;
+    font-size: small;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active,
+input[type="button"]:active {
+    background-color: #3D96E2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+
